@@ -7,7 +7,7 @@ int main() {
     std::getline(std::cin, stroka);
     char* nov_stroka = (char*)malloc(stroka.size());
     if (!change_bukv(stroka, nov_stroka)) {
-        std::cout << "Введенный данные:" << std::endl;
+        std::cout << "Введенные данные:" << std::endl;
         std::cout << stroka << std::endl;
         std::cout << "Результат замены букв:" << std::endl;
         for (long unsigned int bukv = 0; bukv < stroka.size(); bukv++) {
