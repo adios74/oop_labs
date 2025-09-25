@@ -10,10 +10,7 @@ int main() {
         std::cout << "Введенные данные:" << std::endl;
         std::cout << stroka << std::endl;
         std::cout << "Результат замены букв:" << std::endl;
-        for (long unsigned int bukv = 0; bukv < stroka.size(); bukv++) {
-            std::cout << nov_stroka[bukv];
-        }
-        std::cout << std::endl;
+        std::cout << nov_stroka << std::endl;
         
     } else {
         std::cerr << "Неправильный ввод." << std::endl;
