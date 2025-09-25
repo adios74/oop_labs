@@ -1,6 +1,0 @@
-/home/sonya/Desktop/ооп/build/CMakeFiles/edit_cache.dir
-/home/sonya/Desktop/ооп/build/CMakeFiles/rebuild_cache.dir
-/home/sonya/Desktop/ооп/build/lab1_oop/CMakeFiles/lab1_oop.dir
-/home/sonya/Desktop/ооп/build/lab1_oop/CMakeFiles/lab1_tests.dir
-/home/sonya/Desktop/ооп/build/lab1_oop/CMakeFiles/edit_cache.dir
-/home/sonya/Desktop/ооп/build/lab1_oop/CMakeFiles/rebuild_cache.dir
