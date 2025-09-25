@@ -2,18 +2,19 @@
 #include <string>
 #include "lab1_func.cpp" 
 
+using namespace std;
+
 int main() {
-    std::string stroka;
-    std::getline(std::cin, stroka);
+    string stroka;
+    getline(cin, stroka);
     char* nov_stroka = (char*)malloc(stroka.size());
     if (!change_bukv(stroka, nov_stroka)) {
-        std::cout << "Введенные данные:" << std::endl;
-        std::cout << stroka << std::endl;
-        std::cout << "Результат замены букв:" << std::endl;
-        std::cout << nov_stroka << std::endl;
-        
+        cout << "Введенные данные:" << endl;
+        cout << stroka << endl;
+        cout << "Результат замены букв:" << endl;
+        cout << nov_stroka << endl;
     } else {
-        std::cerr << "Неправильный ввод." << std::endl;
+        cerr << "Неправильный ввод." << endl;
     }
     free(nov_stroka);
     return 0;
