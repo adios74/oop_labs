@@ -12,7 +12,7 @@ int main() {
         cout << stroka << endl;
         cout << nov_stroka << endl;
     } else {
-        cerr << "Неправильный ввод." << endl;
+        cerr << "Неправильный ввoд." << endl;
     }
     free(nov_stroka);
     return 0;
