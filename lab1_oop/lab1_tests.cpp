@@ -2,7 +2,7 @@
 #include "lab1_func.h"
 #include <string>
 
-TEST(Lab1Test, ProstoiTest) {
+TEST(Lab1Test, Test1) {
     std::string stroka = "ab";
     char* nov_stroka = (char*)malloc(stroka.size());
     EXPECT_EQ(change_bukv(stroka, nov_stroka), 0);
@@ -11,21 +11,21 @@ TEST(Lab1Test, ProstoiTest) {
     free(nov_stroka);
 }
 
-TEST(Lab1Test, Privet1) {
+TEST(Lab1Test, Test2) {
     std::string stroka = "df";
     char* nov_stroka = (char*)malloc(stroka.size());
     EXPECT_EQ(change_bukv(stroka, nov_stroka), 1);
     free(nov_stroka);
 }
 
-TEST(Lab1Test, Privet2) {
+TEST(Lab1Test, Test3) {
     std::string stroka = "a b";
     char* nov_stroka = (char*)malloc(stroka.size());
     EXPECT_EQ(change_bukv(stroka, nov_stroka), 1);
     free(nov_stroka);
 }
 
-TEST(Lab1Test, DefaultTest1) {
+TEST(Lab1Test, Test4) {
     std::string stroka = "acb";
     char* nov_stroka = (char*)malloc(stroka.size());
     EXPECT_EQ(change_bukv(stroka, nov_stroka), 0);
@@ -35,21 +35,21 @@ TEST(Lab1Test, DefaultTest1) {
     free(nov_stroka);
 }
 
-TEST(Lab1Test, VoidTest) {
+TEST(Lab1Test, Test5) {
     std::string stroka = "";
     char* nov_stroka = (char*)malloc(stroka.size());
     EXPECT_EQ(change_bukv(stroka, nov_stroka), 1);
     free(nov_stroka);
 }
 
-TEST(Lab1Test, Bashmak) {
+TEST(Lab1Test, Test6) {
     std::string stroka = "bbtcc";
     char* nov_stroka = (char*)malloc(stroka.size());
     EXPECT_EQ(change_bukv(stroka, nov_stroka), 1);
     free(nov_stroka);
 }
 
-TEST(Lab1Test, LongTest) {
+TEST(Lab1Test, Test7) {
     std::string stroka = "abcabc";
     char* nov_stroka = (char*)malloc(stroka.size());
     EXPECT_EQ(change_bukv(stroka, nov_stroka), 0);
@@ -62,7 +62,7 @@ TEST(Lab1Test, LongTest) {
     free(nov_stroka);
 }
 
-TEST(Lab1Test, DefaultTest2) {
+TEST(Lab1Test, Test8) {
     std::string stroka = "aabacbaa";
     char* nov_stroka = (char*)malloc(stroka.size());
     EXPECT_EQ(change_bukv(stroka, nov_stroka), 0);
